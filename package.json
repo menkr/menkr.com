@@ -1,0 +1,20 @@
+{
+  "name": "menkr.com",
+  "private": true,
+  "scripts": {
+    "dev": "DEBUG=menkr,menkr:* node menkr.com.js",
+    "start": "NODE_ENV=production pm2 start menkr.com.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/menkr/menkr.com.git"
+  },
+  "author": "turing <o.u.turing@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/menkr/menkr.com/issues"
+  },
+  "homepage": "https://github.com/menkr/menkr.com#readme",
+  "dependencies": {
+    "express": "4.12.3"
+  }
+}
